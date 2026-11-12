@@ -1,0 +1,88 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "titre": "Panne réseau étage 2 — Switch principal",
+      "description": "Perte intermittente de connectivité Ethernet sur l'ensemble des postes de l'aile Est au 2e étage depuis 08h30.",
+      "demandeur": "Ahmed Ben Ali",
+      "priorite": "Haute",
+      "statut": "En cours",
+      "dateCreation": "2026-11-08"
+    },
+    {
+      "id": 2,
+      "titre": "Imprimante salle 204 bloquée",
+      "description": "Bourrage papier récurrent dans le bac 2 et voyant d'erreur orange clignotant sur l'imprimante laser partagée.",
+      "demandeur": "Sarra Trabelsi",
+      "priorite": "Moyenne",
+      "statut": "Ouvert",
+      "dateCreation": "2026-11-10"
+    },
+    {
+      "id": 3,
+      "titre": "Climatisation salle serveurs bruyante",
+      "description": "Vibration anormale du groupe extérieur et température ambiante mesurée à 25°C au lieu des 20°C habituels.",
+      "demandeur": "Mohamed Gharbi",
+      "priorite": "Haute",
+      "statut": "Ouvert",
+      "dateCreation": "2026-11-11"
+    },
+    {
+      "id": 4,
+      "titre": "Remplacement néon couloir administratif",
+      "description": "Deux tubes LED scintillent près de l'accueil et nécessitent un remplacement du ballast.",
+      "demandeur": "Ines Jaziri",
+      "priorite": "Basse",
+      "statut": "Résolu",
+      "dateCreation": "2026-11-05"
+    },
+    {
+      "id": 5,
+      "titre": "Accès badge porte laboratoire B",
+      "description": "Le lecteur RFID ne valide plus les badges temporaires des nouveaux stagiaires.",
+      "demandeur": "Yasmine Mansouri",
+      "priorite": "Moyenne",
+      "statut": "En cours",
+      "dateCreation": "2026-11-09"
+    },
+    {
+      "id": 6,
+      "titre": "Mise à jour poste comptabilité",
+      "description": "Installation du certificat de signature électronique et vérification du lecteur de carte.",
+      "demandeur": "Sami Khelifi",
+      "priorite": "Basse",
+      "statut": "Fermé",
+      "dateCreation": "2026-11-02"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "ticketId": 1,
+      "auteur": "Karim (Support IT)",
+      "contenu": "Câble fibre vérifié ; remplacement du module SFP prévu cet après-midi.",
+      "date": "2026-11-09"
+    },
+    {
+      "id": 2,
+      "ticketId": 1,
+      "auteur": "Ahmed Ben Ali",
+      "contenu": "Merci, la connexion tient mieux depuis 14h mais reste instable sur 2 postes.",
+      "date": "2026-11-10"
+    },
+    {
+      "id": 3,
+      "ticketId": 4,
+      "auteur": "Nabil (Maintenance)",
+      "contenu": "Ballast et tubes LED remplacés. Éclairage vérifié et fonctionnel.",
+      "date": "2026-11-06"
+    },
+    {
+      "id": 4,
+      "ticketId": 5,
+      "auteur": "Nabil (Maintenance)",
+      "contenu": "Contrôleur redémarré, en attente de resynchronisation avec la base badges.",
+      "date": "2026-11-10"
+    }
+  ]
+}
